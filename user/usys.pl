@@ -20,7 +20,7 @@ sub entry {
     print " ecall\n";
     print " ret\n";
 }
-	
+entry("getnproc");	
 entry("fork");
 entry("exit");
 entry("wait");
